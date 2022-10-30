@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const HeroContainer = styled.div`
     color: #fff;
-    background-color: black;
+    background-color: green;
     position: relative;
     padding: 0.5rem calc((90vw - 1000px) /2);
     
