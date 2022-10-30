@@ -1,0 +1,49 @@
+.work-link {
+    
+    text-decoration: none;
+}
+
+.underline-effect {
+    display: inline-block;
+    padding-bottom: 0.25rem;
+    position: relative;
+}
+.underline-effect::before {
+    content: "";
+    position: absolute;
+    right: 0;;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: width 0.25s ease-out;
+    
+
+}
+.underline-effect:hover::before {
+    width: 30%;
+    left: 0%;
+    right: auto;
+
+}
+
+.side-container {
+    height: 100vh;
+    width: 6%;
+    display: flex;
+    position: -webkit-sticky;
+    background-color: white;
+    mix-blend-mode: difference;
+    
+}
+
+.side-wrapper {
+    display: flex;
+    float: right;
+    padding-top: 0;
+}
+
+ul {
+    float: left;
+}

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+
+.soc-med {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.soc-med .imedia {
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
+    margin-right: auto;
+}
+
+.soc-med svg:hover {
+    fill: #606060;
+}
+
+
+.relative {
+    position: relative
+}
+h1 {
+    font-weight: 700;
+    color: #000;
+    margin-left: none;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.underline-hover {
+    display: inline-block;
+    padding-bottom: 0.25rem;
+    position: relative;
+}
+.underline-hover::before {
+    content: "";
+    position: absolute;
+    right: 0;;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #000;
+    transition: width 0.25s ease-out;
+
+}
+.underline-hover:hover::before {
+    width: 100%;
+    left: auto;
+    right: 0%;
+
+}
+
+.anchor-link {
+    color: #101010;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 20px;
+    height: 100%;
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.link:hover {
+    color: #000;
+}
+

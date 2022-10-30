@@ -1,0 +1,9 @@
+.icon-link {
+    display: flex;
+}
+
+.icon-link:hover, svg:hover {
+    fill: #606060;
+    transform: translateY(-5px);
+    transition: 0.2s;
+}
