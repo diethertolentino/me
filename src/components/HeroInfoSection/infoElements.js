@@ -151,21 +151,23 @@ export const Button2 = styled.div`
     color: #fff;
     background-color: #000;
     border-radius: 5px;
-
+    transform: translateY(0px);
+    transition: 0s;
     &:hover {
         
-        transform: translateY(-5px);
-        background-color: #303030;
-        box-shadow: 0 5px #50505080;
-        color: #fff;
+    transform: translateY(-5px);
+    background-color: #303030;
+    box-shadow: 0 5px #50505080;
+    color: #fff;
+    transition: 0.2s;
     }
 
     &:active {
         background-color: #000;
-        box-shadow: 0 0px #000;
-        transform: translateY(5px);
-        transition: 0.2s;
-        color: #fff;
+    box-shadow: 0 0px #000;
+    transform: translateY(0px);
+    transition: 0.2s;
+    color: #fff;
     }
 `
 export const ImgWrap = styled.div`

@@ -2,6 +2,8 @@ import React from 'react'
 import { Button1, Button2, Column1, Column2, HeroBtnWrapper, HeroContainer, HeroH1, HeroP, HeroRow, HeroWrapper, TextWrapper, Span, ImgWrap, Img } from './infoElements'
 import Anchorlink from "react-anchor-link-smooth-scroll";
 import './info.css';
+import Pdf from 'C:/Users/dieth/my-portfolio/src/files/DietherTolentino.pdf'
+
 
 const HeroInfo = () => {
     return (
@@ -26,11 +28,11 @@ const HeroInfo = () => {
                                     I love creating and designing stuff.
                                 </HeroP>
                                 <HeroBtnWrapper>
-                                    <Anchorlink style={{ textDecoration: "none" }} href="/contact">
+                                    <Anchorlink  style={{ textDecoration: "none" }} href="/contact">
                                     <Button1 data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="2500" ><span style={{ margin: "auto" }}>Get in touch</span></Button1>
                                     </Anchorlink>
-                                    <Anchorlink >
-                                    <Button2 data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="3000"><span style={{ margin: "auto" }}>Resume</span></Button2>
+                                    <Anchorlink   data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="3000" style={{ textDecoration: "none" }} href= {Pdf} target="_blank">
+                                    <Button2><span style={{ margin: "auto" }}>Resume</span></Button2>
                                     </Anchorlink>
                                 </HeroBtnWrapper>
                             </TextWrapper>
