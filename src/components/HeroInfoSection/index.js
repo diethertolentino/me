@@ -31,9 +31,9 @@ const HeroInfo = () => {
                                     <Anchorlink  style={{ textDecoration: "none" }} href="/contact">
                                     <Button1 data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="2500" ><span style={{ margin: "auto" }}>Get in touch</span></Button1>
                                     </Anchorlink>
-                                    <Anchorlink   data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="3000" style={{ textDecoration: "none" }} href= {Pdf} target="_blank">
+                                    <a href={Pdf} target="_blank" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="3000" style={{ textDecoration: "none" }} >
                                     <Button2><span style={{ margin: "auto" }}>Resume</span></Button2>
-                                    </Anchorlink>
+                                    </a>
                                 </HeroBtnWrapper>
                             </TextWrapper>
 
